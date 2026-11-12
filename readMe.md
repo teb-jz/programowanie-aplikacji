@@ -39,6 +39,7 @@ Możemy dowolnie zarządzać własnościami danego elementu.
 ```js
     akapit.classList.add('nazwaKlasy') // Dodanie klasy
     akapit.classList.remove('nazwaKlasy') // Usunięcie klasy
+    akapit.classList.toggle('nazwaKlasy') // Przełączenie klasy
 
     akapit.textContent = 'Nowa zawartość' // Wpisanie tekstu
 
@@ -59,6 +60,33 @@ Na koniec należy pamiętać o przypisaniu obsługi zdarzenia do przycisku.
 
 ```js
 przycisk.addEventListener('click', poKliknieciu)
+```
+
+Oczywiście tworzone elementy możemy w dowolnym momencie usuwać.
+
+```js
+const element = document.querySelector('div')
+element.remove()
+```
+
+Poza pobieraniem pojedynczych elementów, możemy odwoływać się do całych kolekcji.
+
+```js
+const elementy = document.querySelectorAll('div')
+```
+
+Dzięki temu możemy operować na wielu elementach jednocześnie. Jest to też prosty sposób na ich zliczanie.
+
+```js
+const ilosc = elementy.length
+```
+
+Jeżeli chcemy zapisać jakieś dane w przeglądarce, z pomocą przychodzi *localStorage*.
+
+```js
+localStorage.setItem("nazwa", "wartosc") // Zapisanie wartości pod daną nazwą
+
+const wartosc = localStorage.getItem("nazwa") // Pobranie wartości i przypisanie do zmiennej
 ```
 
 </details>

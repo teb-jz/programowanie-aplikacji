@@ -105,3 +105,15 @@ Prosta aplikacja webowa do zarządzania listą zadań, wykonana z wykorzystaniem
 * usuwanie zadań,
 * wyświetlanie liczby zadań z podziałem na wykonane i niewykonane,
 * przechowywanie zadań w `localStorage`.
+
+## 2. Lista wydatków
+
+Aplikacja do zapisywania wydatków i kontrolowania ich sumy, wykonana z wykorzystaniem **HTML**, **CSS** i **JavaScript**. Aplikacja umożliwia dodawanie wydatków oraz określanie ich kwoty i kategorii.
+
+### Funkcjonalności
+
+* dodawanie wydatków,
+* możliwość przypisania kategorii,
+* obliczanie i wyświetlanie sumy wydatków,
+* usuwanie poszczególnych wpisów,
+* filtrowanie według danej kategorii.
